@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0 400,400">
   <g fill="red" stroke="black" stroke-width="10">
+    <rect x="100" y='100' width="200" height="200" />
+    <line x1="0" x2="100" y1="0" y2="100" />
+    <!-- <polyline points="100,100 150,200 300,100 100,100" /> -->
     <circle cx="350" cy="50" r="10" />
-    <path d="M0,0 Q 350,50 250,100 Z" />
+    <!-- <path d="M0,0 Q 350,50 250,100 Z" /> -->
   </g>
 </svg>
