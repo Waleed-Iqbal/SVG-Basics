@@ -1,0 +1,30 @@
+body {
+  color: #fff;
+  background: #e26922;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.svg-basics {
+  text-align: center;
+}
+
+.svg-session {
+  max-width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  background: white;
+  margin: 0 auto;
+  overflow: hidden;
+  /* background: white url('data:image/svg+xml,%3Csvg class="svg-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0,0 400,400" %3E%3Ccircle cx="100" cy="100" r="90"  /%3E%3C/svg%3E') no-repeat; */
+}
+
+.svg-circle  {
+  fill: darkblue;
+  stroke: salmon;
+  stroke-width: 10;
+  stroke-dasharray: 63;
+
+  /* transform: rotate3d(0,0,1, 45deg);
+  transform-origin: 40px 40px; */
+}
