@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" >
 
-
-  <!-- <rect id="rectangle" width="300" height="300" x="0" y="0" /> -->
-  <line id="line" x1="350" x2="350" y1="0" y2="400" />
-
-</g>
+    <rect id="rectangle" width="300" height="300" x="0" y="0" />
+    <line id="line" x1="350" x2="350" y1="0" y2="350" />
 
 </svg>

@@ -33,18 +33,18 @@ body {
 
 
 .darkblue {
-  --time: 0.6s;
   fill: darkblue;
   stroke: darkblue;
   stroke-width: 30px;
-  transition: opacity var(--time) linear, stroke var(--time) ease-in-out, transform var(--time) ease-in;
-  transform-origin: 350px 200px;
+  transition: opacity 1s linear, stroke 1s linear, transform 1s linear;
+  transform-origin: 350px 175px;
 }
 
 .darkblue:hover {
+  cursor: pointer;
   opacity: 0;
   stroke: magenta;
-  transform: rotate3D(0,0,1,180deg);
+  transform: rotate(60deg);
 }
 
 

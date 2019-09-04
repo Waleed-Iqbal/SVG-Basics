@@ -12,9 +12,7 @@
 		<path id="fill-walls" d="M250,60 420,230 420,470 320,470 320,310 180,310 180,470 80,470 80,230" stroke="#eee" fill="#ccc"/>
 		<path id="fill-inside-door" d="M220,350 280,350 280,470 220,470" stroke="#ccc" fill="#ccc"/>
 
-
-	<use href="#svg-icon-home" transform="scale(-1, 1) translate(-500 0)" />
-
+	<use href="#svg-icon-home" transform="scale(-1 1) translate(-500 0)" />
 
 
 </svg>
